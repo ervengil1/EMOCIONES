@@ -34,3 +34,4 @@ df = pd.DataFrame(data, columns=['Original Image', 'Face Landmarks', 'Face Image
 
 # Guardar el DataFrame como un archivo CSV
 df.to_csv('emotions_dataset_table2.csv', index=False)
+print("El conjunto de datos se ha guardado correctamente en emotions_dataset_table2.csv")
